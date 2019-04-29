@@ -1,0 +1,28 @@
+.hamburger_container,
+.hamburger_line,
+.hamburger_line::before,
+.hamburger_line::after {
+  position: absolute;
+  top: 20px;
+  right: 25px;
+  background: #FFFFFF;
+  width: 30px;
+  height: 5px;
+  transition: .2s ease;
+  cursor: pointer;
+  z-index: 1;
+}
+.hamburger_container {
+  height: 25px;
+  background: none;
+}
+.hamburger_line:before {
+  content: " ";
+  top: 10px;
+  left: 0;
+}
+.hamburger_line:after {
+  content: " ";
+  top: 20px;
+  left: 0;
+}

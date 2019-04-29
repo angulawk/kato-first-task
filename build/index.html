@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="pragma" content="no-cache" />
+    <title>Kato Nav</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <div class="main_container">
+      <div class="nav_container">
+        <nav>
+          <img src="icon/logo.png" alt="Logo icon" class="main_logo"/>
+          <div class="search_and_select_container">
+            <div class="search_container">
+              <input type="search" placeholder="Wpisz nazwę części">
+              <button type="button" name="button" class="search_btn">
+                <img src="icon/search.png" alt="Search icon" class="search_icon"/>
+                Szukaj
+              </button>
+            </div>
+            <div class="select_container">
+              <button class="select_category_button">
+                Wybierz kategorię
+                <img src="icon/arrow_down.png" alt="Arrow down icon"/>
+              </button>
+              <div class="select_category">
+                <a href="#">Option 1</a>
+                <a href="#">Option 2</a>
+                <a href="#">Option 3</a>
+              </div>
+            </div>
+          </div>
+          <button type="button" name="button" class="hamburger_button open_side_menu">
+            <label class="hamburger_container"></label>
+            <label class="hamburger_line"></label>
+          </button>
+        </nav>
+      </div>
+      <aside class="right_side_menu">
+            <div class="menu_container">
+              <div class="menu_buttons_container">
+                <button type="button" name="button" class="sell_button">
+                  <img src="icon/sell.png" alt="Sell icon"/>
+                  Sprzedaj
+                </button>
+                <button type="button" name="button" class="close_btn">
+                  <img src="icon/hamburger.png" alt="Hamburger icon"/>
+                </button>
+                <button type="button" name="button" class="user_btn">
+                  <img src="icon/user.png" alt="User icon" class="user_icon"/>
+                  <img src="icon/arrow_down.png" alt="Arrow icon"/>
+                </button>
+              </div>
+              <div class="menu_links">
+                <ul class="links">
+                  <li>
+                    <a href="#" class="menu_link">
+                      <img src="icon/my_account.png" alt="My account icon"/>
+                      Moje Konto
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="menu_link">
+                      <img src="icon/shopping_history.png" alt="Shopping history icon"/>
+                      Historia zakupów
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="menu_link">
+                      <img src="icon/offer.png" alt="My offer icon"/>
+                      Moje oferty
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="menu_link">
+                      <img src="icon/comments.png" alt="Comments icon"/>
+                      Komentarze
+                      <span class="comments_count">16</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="menu_link">
+                      <img src="icon/settings.png" alt="Settings icon"/>
+                      Zarządzanie kontem
+                    </a>
+                  </li>
+                </ul>
+                <button type="button" name="logOutButton" class="log_out_btn">
+                  <img src="icon/log_out.png" alt="Log out icon"/>
+                  Wyloguj się
+                </button>
+              </div>
+            </div>
+          </aside>
+    </div>
+
+    <!-- scripts -->
+    <script src="js/main.js"></script>
+  </body>
+
+</html>

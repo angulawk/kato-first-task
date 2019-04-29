@@ -1,0 +1,36 @@
+@import "reset-styles.css";
+@import "right-side-menu.css";
+@import "navigation.css";
+@import "hamburger.css";
+@import "vars.css";
+
+.app {
+  background-color: var(--color-black);
+}
+
+.main_container {
+  max-width: 1920px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.nav_container {
+  height: 100vh;
+  width: 100%;
+}
+
+.overlay {
+  background-color: rgba(0,0,0,0.3);
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  opacity: 0.6;
+}
+
+@media screen and (min-width: 1024px) {
+  .overlay {
+    background: none;
+    opacity: 1;
+  }
+}
